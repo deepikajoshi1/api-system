@@ -1,3 +1,12 @@
+# Photo App
+This project is for learning react and using APIS
+- I will be using unsplash Api to get the photos and display in the UI.
+
+## Things used -
+- API calls using Axios 
+- State updation using Hooks
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
