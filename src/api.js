@@ -10,7 +10,7 @@ const response = await axios.get('https://api.unsplash.com/search/photos',{
 
   }
 });
-console.log(response);
+
 return response.data.results;
 };
 export default searchImages;
