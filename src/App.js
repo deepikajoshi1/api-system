@@ -1,10 +1,8 @@
 // Create a component: A component is a function that returns JSX.
-import { useState } from 'react';
 import SearchBar from './components/SearchBar';
 
 
 function App() {
-  const [images, setImages] = useState([]);
   const handleSubmit = (term) => {
     console.log('Do a search with', term);
   };
