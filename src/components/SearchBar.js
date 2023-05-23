@@ -1,12 +1,13 @@
-function SearchBar({ onSubmit }){
-  const handleClick = () => {
-    console.log('Do a search with', term);
-onSubmit('dogs');
+function SearchBar({ onSubmit }) {
+  const handleFormSubmit = (event) => {
+    event.preventDefault();
+    onSubmit('dogs');
   };
-  return(
+  return (
     <div>
-      <input/>
-      <button onClick={handleClick}>Click Me</button>
+      <form onSubmit={handleFormSubmit}>
+        <input />
+      </form>
     </div>
   );
 }
