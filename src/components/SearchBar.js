@@ -3,7 +3,7 @@ function SearchBar({ onSubmit }) {
   const [term, setTerm] = useState('');
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    onSubmit('dogs');
+    onSubmit('term');
   };
   const handleChange = (event) => {
     setTerm(event.target.value);
