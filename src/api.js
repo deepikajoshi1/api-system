@@ -5,7 +5,7 @@ const searchImages = async (term) => {
       Authorization: process.env.REACT_APP_API_KEY
     },
     params: {
-      query: 'term',
+      query: term,
     },
   });
 
