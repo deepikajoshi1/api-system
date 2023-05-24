@@ -1,7 +1,10 @@
 import ImageShow from './ImageShow';
 function ImageList({images}){
+  const renderedImages = images.map((image) => {
+    return <ImageShow image={image} />
+  });
   return (
-    <div>ImageList</div>
+    <div>{renderedImages}</div>
   );
 }
-export Default ImageList;
+export default ImageList;
