@@ -1,4 +1,5 @@
-function ImageList(){
+import ImageShow from './ImageShow';
+function ImageList({images}){
   return (
     <div>ImageList</div>
   );
